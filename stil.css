@@ -1,0 +1,650 @@
+html {
+    width: 100%;
+    hight: 100%;
+    background-size: cover;
+    font-family: "Calibri";
+}
+
+#okvir {
+    position: relative;
+    width: 900px;
+    height: 1000px;
+    margin: 0 auto;
+    background-image: url("slike/nova.jpg");
+}
+
+#A {
+    /* border-top: 2px solid black; 
+	border-left:	2px solid black;*/
+    border-radius: 9px 0px 0px 0px;
+    -moz-border-radius: 9px 0px 0px 0px;
+    -webkit-border-radius: 9px 0px 0px 0px;
+    border: 3px solid #000661;
+    background-color: white !important;
+}
+
+#B {
+    left: 452px;
+    /*border-top: 2px solid black;
+    border-right: 3px solid black;*/
+    border-radius: 0px 9px 0px 0px;
+    -moz-border-radius: 0px 9px 0px 0px;
+    webkit-border-radius: 0px 9px 0px 0px;
+    border-right: 3px solid #000661;
+    border-top: 3px solid #000661;
+    border-bottom: 3px solid #000661;
+    background-color: white !important;
+}
+
+.naslovi {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.prva {
+    position: absolute;
+    width: 450px;
+    height: 232px;
+    background-image: url("slike/pozadina1.jpg");
+    overflow: auto;
+    -webkit-box-shadow: 15px 1px 33px 4px #FFFFFF;
+    box-shadow: 15px 1px 33px 4px #FFFFFF;
+}
+
+.prva ul {
+    list-style-type: circle;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.prva li a {
+    margin-right: 6px;
+    color: #000000;
+}
+
+.prva li a:hover {
+    color: blue;
+}
+
+#C {
+    z-index: 2;
+    position: absolute;
+    width: 899px;
+    height: 59px;
+    top: 235px;
+    background-color: white;
+    border-radius: 0px 0px 9px 9px;
+    -moz-border-radius: 0px 0px 9px 9px;
+    -webkit-border-radius: 0px 0px 9px 9px;
+    border-left: 3px solid #000661;
+    border-top: 3px solid #000661;
+    border-right: 3px solid #000661;
+    border-bottom: 3px solid #000661;
+    -webkit-box-shadow: 15px 1px 33px 4px #FFFFFF;
+    box-shadow: 15px 0 33px 0px #FFFFFF;
+}
+
+nav {
+    background-image: url("slike/skrol.jpg");
+    border-radius: 0px 0px 9px 9px;
+    -moz-border-radius: 0px 0px 9px 9px;
+    -webkit-border-radius: 0px 0px 9px 9px;
+    border-bottom: 3px solid #000661;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    word-spacing: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    background-image: url("slike/skrol1.jpg");
+    text-align: left;
+}
+
+nav a {
+    display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-image: url("slike/skrol1.jpg");
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px; /* the height of the main nav */
+}
+
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+}
+
+/*::-webkit-scrollbar-button {*/
+/*    width: 0px;*/
+/*    height: 0px;*/
+/*}*/
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.62);
+    border: 0px none #000000;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.62);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(0, 0, 0, 0.62);
+}
+
+::-webkit-scrollbar-track {
+    background: #dadada;
+    border: 0px none #000000;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #dadada;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #dadada;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+
+#D {
+    z-index: 1;
+    top: 302px;
+    border-radius: 9px 0px 0px 0px;
+    -moz-border-radius: 9px 0px 0px 0px;
+    -webkit-border-radius: 9px 0px 0px 0px;
+    border-left: 3px solid #000661;
+    border-top: 3px solid #000661;
+    border-bottom: 1px solid #000661;
+}
+
+
+#E {
+    z-index: 1;
+    left: 303px;
+    top: 302px;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-top: 3px solid #000661;
+    border-bottom: 1px solid #020a9c;
+}
+
+#F {
+    z-index: 1;
+    top: 302px;
+    left: 602px;
+    border-radius: 0px 9px 0px 0px;
+    -moz-border-radius: 0px 9px 0px 0px;
+    -webkit-border-radius: 0px 9px 0px 0px;
+    border-right: 3px solid #000661;
+    border-top: 3px solid #000661;
+    border-bottom: 1px solid #000661;
+}
+
+#G {
+    top: 600px;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 3px solid #000661;
+}
+
+#H {
+    top: 600px;
+    left: 303px;
+    border-radius: 0px 9px 0px 0px;
+    -moz-border-radius: 0px 9px 0px 0px;
+    -webkit-border-radius: 0px 9px 0px 0px;
+    border-top: 2px solid #020a9c;
+}
+
+#I {
+    top: 600px;
+    left: 602px;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-right: 3px solid #000661;
+}
+
+#J {
+    top: 900px;
+    border-radius: 0px 0px 0px 9px;
+    -moz-border-radius: 0px 0px 0px 9px;
+    -webkit-border-radius: 0px 0px 0px 9px;
+    border-left: 3px solid #000661;
+    border-buttom: 3px solid #000661;
+    border-top: 1px solid #000661;
+}
+
+#K {
+    top: 900px;
+    left: 303px;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-buttom: 3px solid #000661;
+    border-top: 1px solid #000661;
+}
+
+#L {
+    top: 900px;
+    left: 602px;
+    border-radius: 0px 0px 9px 0px;
+    -moz-border-radius: 0px 0px 9px 0px;
+    -webkit-border-radius: 0px 0px 9px 0px;
+    border-right: 3px solid #000661;
+    border-buttom: 3px solid #000661;
+    border-top: 1px solid #000661;
+}
+
+
+.druga {
+    /*background-color: #99c2ff;*/
+    background-image: url("slike/pozadina1.jpg");
+    position: absolute;
+    width: 300px;
+    height: 303px;
+    overflow: auto;
+    text-decoration: none !important;
+    -webkit-box-shadow: 15px 1px 33px 4px #FFFFFF;
+    box-shadow: 15px 1px 33px 4px #FFFFFF;
+}
+
+.druga ul {
+    list-style-type: circle;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Calibri";
+    text-decoration: none;
+}
+
+.druga li a {
+    margin-right: 25px;
+    color: #000;
+    text-decoration: none;
+}
+
+.druga img {
+    width: 66px;
+    hight: 66px;
+}
+
+.naslovi_druga {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+.druga li a:hover {
+    color: blue;
+}
+
+.div_text_shadow {
+    color: rgb(38, 38, 38);
+    font-size: 50px;
+    background-color: rgb(153, 109, 109);
+    text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+}
+
+#najbolje_vesti {
+    position: absolute;
+    width: 899px;
+    height: 235px;
+    background-image: url("slike/pozadina1.jpg");
+    border-radius: 9px 9px 0px 0px;
+    -moz-border-radius: 9px 9px 0px 0px;
+    -webkit-border-radius: 9px 9px 0px 0px;
+    border: 3px solid #000661;
+    -webkit-box-shadow: 15px 1px 33px 4px #FFFFFF;
+    box-shadow: 15px 1px 33px 4px #FFFFFF;
+}
+
+.naslovikat {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    margin-top: 80px;
+    text-shadow: 9px 6px 15px #598BFF;
+}
+
+.naslovi_ostalo {
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    margin-top: 80px;
+    margin-left: 30px;
+    text-shadow: 9px 6px 15px #598BFF;
+}
+
+#kategorija {
+    top: 302px;
+    position: absolute;
+    width: 905px;
+    hight: 905px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 22px;
+    line-height: 22px;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border: 3px solid #000661;
+    background-color: #ccddff;
+    -webkit-box-shadow: 15px 1px 33px 4px #FFFFFF;
+    box-shadow: 15px 1px 33px 4px #FFFFFF;
+}
+
+.kategorija {
+    box-sizing: border-box;
+}
+
+
+.kategorija img {
+    width: 166px;
+    hight: 166px;
+}
+
+.naslovipod {
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+    text-decoration: none;
+}
+
+.naslovilevo {
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+}
+
+.naslovilevo a {
+    color: black;
+}
+
+
+.kontakt {
+    position: absolute;
+    width: 898px;
+    height: 900px;
+    background-color: #f1f1f1;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: "Calibri";
+}
+
+.kontakt p {
+    margin-left: 70px;
+    line-height: 35px;
+    font-family: "Calibri";
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-family: "Calibri";
+}
+
+#uloguj_se {
+    width: 900px;
+    hight: 900px;
+    /*text-align:left;*/
+    margin-top: 100px;
+}
+
+#unesi_vest {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+#cekiranje_ekonomija {
+    position: absolute;
+    top: 110px;
+    left: 42px;
+}
+
+#cekiranje_politika {
+    position: absolute;
+    top: 110px;
+    left: 178px;
+}
+
+#cekiranje_tehnologije {
+    position: absolute;
+    top: 110px;
+    left: 302px;
+}
+
+#cekiranje_sport {
+    position: absolute;
+    top: 110px;
+    left: 448px;
+}
+
+#cekiranje_kultura {
+    position: absolute;
+    top: 110px;
+    left: 568px;
+}
+
+#textarea {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+
+#Unesi_vest_dugme {
+    position: absolute;
+    top: 710px;
+    left: 649px;
+}
+
+.italic {
+    font-style: italic
+}
+
+.boldovano {
+    font-weight: bold;
+}
+
+#kategorija p {
+    font-family: "Calibri";
+}
+
+.uloguj_se p {
+    text-align: center;
+}
+
+#prijavi {
+    position: absolute;
+    left: 455px;
+}
+
+#ostalo {
+    width: 899px;
+    height: 900px;
+    margin: 0 auto;
+    position: absolute;
+    top: 303px;
+    overflow: auto;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border: 3px solid #000661;
+    background-color: #ccddff;
+    -webkit-box-shadow: 15px 1px 33px 4px #FFFFFF;
+    box-shadow: 15px 1px 33px 4px #FFFFFF;
+}
+
+#prvi_kontakt {
+    position: absolute;
+    top: 50px;
+}
+
+#drugi_kontakt {
+    position: absolute;
+    top: 450px;
+    left: 190px;
+}
+
+#drugi_kontakt p {
+    text-align: center !important;
+}
+
+.vesti {
+    margin: 30px 0 30px 0;
+    width: 850px;
+}
+
+.naslov_vesti {
+    font-weight: bold;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+
+.naslov_vestikat {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 20px;
+    color: black;
+}
+
+.naslov_vestikat a:hover {
+    color: blue;
+}
+
+.datum {
+    font-size: 16px;
+    text-align: right;
+}
+
+.datum1 {
+    font-size: 17px;
+    text-align: right;
+}
+
+.slika_vesti {
+    float: left;
+}
+
+.slika_vesti img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.slika_vesti1 {
+    float: right;
+}
+
+.slika_vesti1 img {
+    width: 400px;
+    height: 400px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-buttom: 20px;
+}
+
+.tri_recenice {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.text_vesti {
+    font-size: 14px;
+    text-align: justify;
+    padding: 15px;
+}
+
+#izbor {
+    text-align: center;
+    display: inline-block;
+    width: 900px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+#Sortiranje {
+    display: inline-block;
+    width: 900px;
+    font-size: 15px;
+}
+
+#komentari_lajkovi {
+    display: inline-block;
+    wight: 900px;
+    padding: 30px 30px;
+}
+
+#postavljeni_komentari {
+    box-sizing: border-box;
+    hight: 500px;
+    wight: 900px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 3px inset #001854;
+    background-color: white;
+    line-height: 35px;
+}
+
+.textarea {
+    resize: none;
+}
